@@ -417,9 +417,9 @@
           "block_size": "normal",
           "title": "Une histoire née en Algerie",
           "content": "<p>Eleifa est née après ma hijra en Algérie, avec l’envie de faciliter la prière des sœurs à travers des tenues alliant pudeur, authenticité et élégance discrète.<br/></p>",
-          "button_label": "En savoir plus",
+          "button_label": "Plongez dans l’histoire d’Eleifa",
           "button_link": "",
-          "show_parallax": false
+          "show_parallax": true
         }
       },
       "instagram_feed_xBRa9N": {
