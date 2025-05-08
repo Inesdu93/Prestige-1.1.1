@@ -10,22 +10,22 @@
 {
   "current": {
     "heading_color": "#232222",
-    "text_color": "#080808",
+    "text_color": "#000000",
     "text_light_color": "#939393",
-    "link_color": "#111010",
+    "link_color": "#a359a0",
     "background": "#ffffff",
-    "light_background": "#ffffff",
+    "light_background": "#000000",
     "product_on_sale_color": "#38c81b",
-    "button_background": "#161414",
-    "button_text_color": "#ffffff",
+    "button_background": "#ffffff",
+    "button_text_color": "#a359a0",
     "header_background": "#ffffff",
     "header_heading_color": "#5c5c5c",
     "header_light_color": "#939393",
-    "footer_background": "#d6c8b9",
+    "footer_background": "#ffffff",
     "footer_heading_color": "#a359a0",
-    "footer_text_color": "#ffffff",
+    "footer_text_color": "#000000",
     "navigation_background": "#ffffff",
-    "navigation_text_color": "#5c5c5c",
+    "navigation_text_color": "#a359a0",
     "newsletter_popup_background": "#ffffff",
     "newsletter_popup_text_color": "#1c1b1b",
     "secondary_elements_background": "#000000",
@@ -37,7 +37,7 @@
     "base_text_font_size": 13,
     "currency_conversion_enabled": true,
     "currency_conversion_round_amounts": true,
-    "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+    "currency_conversion_supported_currencies": "EUR",
     "currency_conversion_money_format": "money_format",
     "show_page_transition": true,
     "show_image_zooming": true,
@@ -128,7 +128,7 @@
             "settings": {
               "title": "Pour vous",
               "content": "<p><strong>Pensé pour Vous</strong><br/><br/>Les tenues de prière Eleifa ne sont pas simplement des vêtements, mais un moyen de vivre votre spiritualité avec confort et élégance.</p><p><strong>Recommandé par des centaines de sœurs</strong><br/><br/>Nos créations sont portées et adorées par de nombreuses femmes, qui apprécient la qualité et la simplicité d'Eleifa.</p><p><strong>Éthique et Respectueuse</strong><br/><br/>Nous nous engageons pour l’environnement et créons des produits respectueux, sans compromis.</p>",
-              "show_social_media": false
+              "show_social_media": true
             }
           }
         },
@@ -255,6 +255,7 @@
       },
       "1595363175996": {
         "type": "text-with-image",
+        "custom_css": [],
         "settings": {
           "subheading": "",
           "title": "La pudeur embellit l’ame",
