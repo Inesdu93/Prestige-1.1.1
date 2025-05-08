@@ -306,48 +306,6 @@
           "show_mobile_product_info": true
         }
       },
-      "1596220234038": {
-        "type": "testimonials",
-        "blocks": {
-          "1596220234038-0": {
-            "type": "testimonial",
-            "settings": {
-              "quote": "<p>This product has gotten me through allergy season and sets the mood with it's colors. Got 4 of them for the whole family!</p>"
-            }
-          },
-          "1596220234038-1": {
-            "type": "testimonial",
-            "settings": {
-              "quote": "<p>BEST diffuser/humidifer/LED Projector HANDS DOWN. Mood changing lights really help with my sleep too!!</p>"
-            }
-          },
-          "1596220234038-2": {
-            "type": "testimonial",
-            "settings": {
-              "quote": "<p>Had the flu for a few days, bought this and let it run, two days later I could breathe again and had no symptoms... this diffuser is a miracle. I used the peppermint oil to add to it and it made a huge difference.</p>"
-            }
-          },
-          "1596222341500": {
-            "type": "testimonial",
-            "settings": {
-              "quote": "<p>LOVE that Aromifier is BPA Free and friendly towards the environment</p>"
-            }
-          }
-        },
-        "block_order": [
-          "1596220234038-0",
-          "1596220234038-1",
-          "1596220234038-2",
-          "1596222341500"
-        ],
-        "disabled": true,
-        "settings": {
-          "autoplay": true,
-          "cycle_speed": 5,
-          "background": "#d5e0ee",
-          "text_color": "#ffffff"
-        }
-      },
       "cart-template": {
         "type": "cart-template",
         "settings": {
@@ -448,21 +406,18 @@
           "testimonial_rKUJEk": {
             "type": "testimonial",
             "settings": {
-              "logo": "shopify://shop_images/znzksz.png",
               "quote": "<p>\"C'est un vrai plaisir de soutenir une marque éthique et inclusive, qui met en valeur l'artisanat algérien avec autant de soin.</p><p>Bravo pour votre travail ! Je recommande sans hésiter.\"</p>"
             }
           },
           "testimonial_VhCA79": {
             "type": "testimonial",
             "settings": {
-              "logo": "shopify://shop_images/znzksz.png",
               "quote": "<p><em> \"La matière est incroyable et les détails en dentelles sont trop beaux!\" </em></p>"
             }
           },
           "testimonial_YKWtyK": {
             "type": "testimonial",
             "settings": {
-              "logo": "shopify://shop_images/znzksz.png",
               "quote": "<p>\"J'étais un peu sceptique concernant la taille, car je suis grande et vous proposez uniquement une taille unique. Mais finalement, belle surprise ! Le vêtement tombe parfaitement, et en plus, il est d'une qualité exceptionnelle.\"</p>"
             }
           },
@@ -496,6 +451,7 @@
           "testimonial_LF7XRc",
           "testimonial_k79r97"
         ],
+        "disabled": true,
         "name": "Testimonials",
         "settings": {
           "autoplay": true,
@@ -524,6 +480,54 @@
           "subheading": "",
           "title": "NOS  VALEURS",
           "html": "<meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>Notre Engagement</title>\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css\">\n  <style>\n    body {\n      font-family: 'Century Gothic', sans-serif; /* Police Century Gothic */\n      margin: 0;\n      padding: 20px;\n    }\n\n    .section {\n      display: flex;\n      justify-content: space-between;\n      gap: 30px;\n      margin-top: 40px;\n      text-align: center;\n      flex-wrap: wrap;\n    }\n\n    .section div {\n      flex: 1;\n      min-width: 250px;\n      padding: 10px;\n      display: flex;\n      flex-direction: column;\n      align-items: center;\n      justify-content: center;\n    }\n\n    .section i {\n      font-size: 36px;\n      color: #000; /* Icônes en noir */\n      margin-bottom: 12px;\n    }\n\n    .section h3 {\n      font-size: 14px;\n      margin: 8px 0;\n    }\n\n    .section p {\n      font-size: 12px;\n      color: #555;\n      line-height: 1.6;\n      margin-top: 8px;\n    }\n  </style>\n\n\n\n  <div class=\"section\">\n    <div>\n      <i class=\"fas fa-leaf\"></i>\n      <h3>Éthique</h3>\n      <p>Produits respectueux de l'environnement, fabriqués avec soin et intégrité.</p>\n    </div>\n\n    <div>\n      <i class=\"fas fa-credit-card\"></i> <!-- Icône de carte de paiement simple -->\n      <h3>Paiement Sécurisé</h3>\n      <p>Profitez d'un paiement en ligne sûr et fiable, en toute sérénité.</p>\n    </div>\n\n    <div>\n      <i class=\"fas fa-users\"></i> <!-- Icône de groupe de personnes simple -->\n      <h3>Soutien aux Artisans Algériens</h3>\n      <p>Nous valorisons le travail local et collaborons avec des artisans algériens.</p>\n    </div>\n  </div>"
+        }
+      },
+      "1596220234038": {
+        "type": "testimonials",
+        "blocks": {
+          "1596220234038-0": {
+            "type": "testimonial",
+            "settings": {
+              "quote": "<p>\"C’est mon ensemble de prière préféré maintenant ! Je peux sortir avec, il est agréable à porter.\"</p>"
+            }
+          },
+          "1596220234038-1": {
+            "type": "testimonial",
+            "settings": {
+              "quote": "<p>\"Alors déjà je savais même pas qu'il y avait un bandeau qui s'attache intégrée on a été agréablement surprise\"</p>"
+            }
+          },
+          "1596220234038-2": {
+            "type": "testimonial",
+            "settings": {
+              "quote": "<p>\"J'étais un peu sceptique concernant la taille, car je suis grande et vous proposez uniquement une taille unique. Mais finalement, belle surprise \"</p><p></p>"
+            }
+          },
+          "testimonial_KYGGWF": {
+            "type": "testimonial",
+            "settings": {
+              "quote": "<p>\"Allahuma barik trop pratique et les chaussettes accrochés vrmt une vrai révolution pour prier les pieds couverts mais avec toujours quelque chose de propres prêt et jolie\"</p>"
+            }
+          },
+          "1596222341500": {
+            "type": "testimonial",
+            "settings": {
+              "quote": "<p>\"C'est un vrai plaisir de soutenir une marque éthique et inclusive, qui met en valeur l'artisanat algérien avec autant de soin.\"</p>"
+            }
+          }
+        },
+        "block_order": [
+          "1596220234038-0",
+          "1596220234038-1",
+          "1596220234038-2",
+          "testimonial_KYGGWF",
+          "1596222341500"
+        ],
+        "settings": {
+          "autoplay": true,
+          "cycle_speed": 5,
+          "background": "#c8b1a0",
+          "text_color": "#ffffff"
         }
       }
     },
