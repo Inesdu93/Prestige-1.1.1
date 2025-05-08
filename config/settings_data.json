@@ -433,11 +433,101 @@
           "button_text": "",
           "button_url": ""
         }
+      },
+      "loox_carousel_reviews_4BzdjW": {
+        "type": "loox-carousel-reviews",
+        "name": "Reviews - Carousel",
+        "settings": {
+          "max_width": 1920,
+          "arrows_color": "",
+          "dots_color": "",
+          "button_color": "",
+          "show_more": true,
+          "only_photos": false,
+          "use_widget_font": false,
+          "product_handle": "abaya-salat"
+        }
+      },
+      "testimonials_XMERkB": {
+        "type": "testimonials",
+        "blocks": {
+          "testimonial_rKUJEk": {
+            "type": "testimonial",
+            "settings": {
+              "logo": "shopify://shop_images/znzksz.png",
+              "quote": "<p>\"C'est un vrai plaisir de soutenir une marque éthique et inclusive, qui met en valeur l'artisanat algérien avec autant de soin.</p><p>Bravo pour votre travail ! Je recommande sans hésiter.\"</p>"
+            }
+          },
+          "testimonial_VhCA79": {
+            "type": "testimonial",
+            "settings": {
+              "logo": "shopify://shop_images/znzksz.png",
+              "quote": "<p><em> \"La matière est incroyable et les détails en dentelles sont trop beaux!\" </em></p>"
+            }
+          },
+          "testimonial_YKWtyK": {
+            "type": "testimonial",
+            "settings": {
+              "logo": "shopify://shop_images/znzksz.png",
+              "quote": "<p>\"J'étais un peu sceptique concernant la taille, car je suis grande et vous proposez uniquement une taille unique. Mais finalement, belle surprise ! Le vêtement tombe parfaitement, et en plus, il est d'une qualité exceptionnelle.\"</p>"
+            }
+          },
+          "testimonial_HkgxGT": {
+            "type": "testimonial",
+            "settings": {
+              "logo": "shopify://shop_images/znzksz.png",
+              "quote": "<p>\"C’est mon ensemble de prière préféré maintenant ! Je peux sortir avec, il est agréable à porter. La matière est ma préférée, la longueur, tout est parfait \"</p>"
+            }
+          },
+          "testimonial_LF7XRc": {
+            "type": "testimonial",
+            "settings": {
+              "logo": "shopify://shop_images/znzksz.png",
+              "quote": "<p>\"C'est tellement pratique ! Et les chaussettes attachées, c'est une véritable révolution : prier avec les pieds toujours couverts, propres, prêts et élégants !\"</p>"
+            }
+          },
+          "testimonial_k79r97": {
+            "type": "testimonial",
+            "settings": {
+              "logo": "shopify://shop_images/znzksz.png",
+              "quote": "<p>\"Je ne savais même pas qu'il y avait un bandeau intégré qui s'attache ! On a été agréablement surprises\" </p><p></p>"
+            }
+          }
+        },
+        "block_order": [
+          "testimonial_rKUJEk",
+          "testimonial_VhCA79",
+          "testimonial_YKWtyK",
+          "testimonial_HkgxGT",
+          "testimonial_LF7XRc",
+          "testimonial_k79r97"
+        ],
+        "name": "Testimonials",
+        "settings": {
+          "autoplay": true,
+          "cycle_speed": 5,
+          "background": "#ffffff",
+          "text_color": "#1c1b1b"
+        }
+      },
+      "text_with_image_QXAp3K": {
+        "type": "text-with-image",
+        "name": "Rich text with image",
+        "settings": {
+          "subheading": "",
+          "title": "Notre concept",
+          "image": "shopify://shop_images/burrro.png",
+          "image_position": "left",
+          "content": "<p>Chez Eleifa, nous proposons des tenues de prière conçues pour allier pudeur, confort et praticité. Nos tenues sont pensées pour faciliter votre quotidien, avec des éléments pratiques comme les chaussettes intégrées pour des prières en toute simplicité.</p><p>Nous sélectionnons des matières agréables et des coupes adaptées pour vous offrir une expérience de prière confortable, tout en respectant votre style et vos valeurs.</p><p>Eleifa, c’est la simplicité d’une tenue de prière efficace, élégante et prête à vous accompagner dans chaque moment de spiritualité.</p><p></p>",
+          "link_text": "Rejoignez la communauté Eleifa",
+          "link_url": "shopify://collections"
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "1595363175996",
+      "text_with_image_QXAp3K",
       "image_with_text_block_yE73UC",
       "instagram_feed_xBRa9N",
       "1595364523818",
@@ -445,7 +535,9 @@
       "1595363281802",
       "1602617331938",
       "1596220234038",
-      "featured_collections_MFKdQR"
+      "featured_collections_MFKdQR",
+      "loox_carousel_reviews_4BzdjW",
+      "testimonials_XMERkB"
     ]
   },
   "presets": {
