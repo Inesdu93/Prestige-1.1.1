@@ -411,10 +411,10 @@
         "type": "image-with-text-block",
         "name": "Image with text block",
         "settings": {
-          "image": "shopify://shop_images/dddd.png",
+          "image": "shopify://shop_images/uhhuhu.png",
           "background": "#ffffff",
           "text_color": "#c8b1a0",
-          "block_size": "normal",
+          "block_size": "large",
           "title": "Une histoire née en Algerie",
           "content": "<p>Eleifa est née après ma hijra en Algérie, avec l’envie de faciliter la prière des sœurs à travers des tenues alliant pudeur, authenticité et élégance discrète.<br/></p>",
           "button_label": "Plongez dans l’histoire d’Eleifa",
@@ -516,7 +516,7 @@
         "settings": {
           "subheading": "",
           "title": "Notre concept",
-          "image": "shopify://shop_images/burrro.png",
+          "image": "shopify://shop_images/Image_JPEG-48B4-83F8-34-0.jpg",
           "image_position": "left",
           "content": "<p>Chez Eleifa, nous proposons des tenues de prière conçues pour allier pudeur, confort et praticité. Nos tenues sont pensées pour faciliter votre quotidien, avec des éléments pratiques comme les chaussettes intégrées pour des prières en toute simplicité.</p><p>Nous sélectionnons des matières agréables et des coupes adaptées pour vous offrir une expérience de prière confortable, tout en respectant votre style et vos valeurs.</p><p>Eleifa, c’est la simplicité d’une tenue de prière efficace, élégante et prête à vous accompagner dans chaque moment de spiritualité.</p><p></p>",
           "link_text": "Rejoignez la communauté Eleifa",
