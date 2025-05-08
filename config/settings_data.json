@@ -21,9 +21,9 @@
     "header_background": "#ffffff",
     "header_heading_color": "#5c5c5c",
     "header_light_color": "#939393",
-    "footer_background": "#000000",
-    "footer_heading_color": "#bbcce1",
-    "footer_text_color": "#f3f3f3",
+    "footer_background": "#d6c8b9",
+    "footer_heading_color": "#a359a0",
+    "footer_text_color": "#ffffff",
     "navigation_background": "#ffffff",
     "navigation_text_color": "#5c5c5c",
     "newsletter_popup_background": "#ffffff",
@@ -266,6 +266,7 @@
       },
       "1595363281802": {
         "type": "featured-video",
+        "disabled": true,
         "settings": {
           "section_size": "small",
           "text_color": "#ffffff",
@@ -296,6 +297,7 @@
         "block_order": [
           "1595364550563"
         ],
+        "disabled": true,
         "settings": {
           "subheading": "",
           "title": "Our Humidifiers:",
@@ -336,6 +338,7 @@
           "1596220234038-2",
           "1596222341500"
         ],
+        "disabled": true,
         "settings": {
           "autoplay": true,
           "cycle_speed": 5,
@@ -352,6 +355,7 @@
       },
       "1602617331938": {
         "type": "text-with-image",
+        "disabled": true,
         "settings": {
           "subheading": "Aromifier",
           "title": "Aromifier Pro V2 2020",
@@ -363,6 +367,7 @@
       },
       "1602617742633": {
         "type": "text-with-image",
+        "disabled": true,
         "settings": {
           "subheading": "Aromifier",
           "title": "Clear Aromifier",
@@ -398,6 +403,7 @@
           "collection_eQwAkF",
           "collection_MgEtpz"
         ],
+        "disabled": true,
         "settings": {
           "title": "Featured collection",
           "layout_mode": "grid",
@@ -432,20 +438,6 @@
           "image_count": 15,
           "button_text": "",
           "button_url": ""
-        }
-      },
-      "loox_carousel_reviews_4BzdjW": {
-        "type": "loox-carousel-reviews",
-        "name": "Reviews - Carousel",
-        "settings": {
-          "max_width": 1920,
-          "arrows_color": "",
-          "dots_color": "",
-          "button_color": "",
-          "show_more": true,
-          "only_photos": false,
-          "use_widget_font": false,
-          "product_handle": "abaya-salat"
         }
       },
       "testimonials_XMERkB": {
@@ -522,44 +514,6 @@
           "link_text": "Rejoignez la communauté Eleifa",
           "link_url": "shopify://collections"
         }
-      },
-      "image_with_text_overlay_wqw8qt": {
-        "type": "image-with-text-overlay",
-        "name": "Image with text (overlay)",
-        "settings": {
-          "section_size": "normal",
-          "image": "shopify://shop_images/burrro.png",
-          "text_color": "#ffffff",
-          "overlay_color": "#000000",
-          "overlay_opacity": 27,
-          "subheading": "",
-          "title": "notre concept",
-          "content": "<p>Chez Eleifa, nous proposons des tenues de prière conçues pour allier pudeur, confort et praticité. Nos tenues sont pensées pour faciliter votre quotidien, avec des éléments pratiques comme les chaussettes intégrées pour des prières en toute simplicité.</p><p>Nous sélectionnons des matières agréables et des coupes adaptées pour vous offrir une expérience de prière confortable, tout en respectant votre style et vos valeurs.</p><p></p>"
-        }
-      },
-      "timeline_9UqiDr": {
-        "type": "timeline",
-        "blocks": {
-          "item_EbwJhM": {
-            "type": "item",
-            "disabled": true,
-            "settings": {
-              "image": "shopify://shop_images/burrro.png",
-              "apply_overlay": true,
-              "title": "2000",
-              "subheading": "",
-              "heading": "Notre concept",
-              "content": "<p>Chez Eleifa, nous proposons des tenues de prière conçues pour allier pudeur, confort et praticité. Nos tenues sont pensées pour faciliter votre quotidien, avec des éléments pratiques comme les chaussettes intégrées pour des prières en toute simplicité.</p><p>Nous sélectionnons des matières agréables et des coupes adaptées pour vous offrir une expérience de prière confortable, tout en respectant votre style et vos valeurs.</p><p></p><p></p>"
-            }
-          }
-        },
-        "block_order": [
-          "item_EbwJhM"
-        ],
-        "name": "Timeline",
-        "settings": {
-          "text_color": "#ffffff"
-        }
       }
     },
     "content_for_index": [
@@ -574,10 +528,7 @@
       "1595363281802",
       "1602617331938",
       "1596220234038",
-      "featured_collections_MFKdQR",
-      "loox_carousel_reviews_4BzdjW",
-      "image_with_text_overlay_wqw8qt",
-      "timeline_9UqiDr"
+      "featured_collections_MFKdQR"
     ]
   },
   "presets": {
