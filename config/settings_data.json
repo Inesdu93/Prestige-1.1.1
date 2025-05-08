@@ -522,6 +522,44 @@
           "link_text": "Rejoignez la communauté Eleifa",
           "link_url": "shopify://collections"
         }
+      },
+      "image_with_text_overlay_wqw8qt": {
+        "type": "image-with-text-overlay",
+        "name": "Image with text (overlay)",
+        "settings": {
+          "section_size": "normal",
+          "image": "shopify://shop_images/burrro.png",
+          "text_color": "#ffffff",
+          "overlay_color": "#000000",
+          "overlay_opacity": 27,
+          "subheading": "",
+          "title": "notre concept",
+          "content": "<p>Chez Eleifa, nous proposons des tenues de prière conçues pour allier pudeur, confort et praticité. Nos tenues sont pensées pour faciliter votre quotidien, avec des éléments pratiques comme les chaussettes intégrées pour des prières en toute simplicité.</p><p>Nous sélectionnons des matières agréables et des coupes adaptées pour vous offrir une expérience de prière confortable, tout en respectant votre style et vos valeurs.</p><p></p>"
+        }
+      },
+      "timeline_9UqiDr": {
+        "type": "timeline",
+        "blocks": {
+          "item_EbwJhM": {
+            "type": "item",
+            "disabled": true,
+            "settings": {
+              "image": "shopify://shop_images/burrro.png",
+              "apply_overlay": true,
+              "title": "2000",
+              "subheading": "",
+              "heading": "Notre concept",
+              "content": "<p>Chez Eleifa, nous proposons des tenues de prière conçues pour allier pudeur, confort et praticité. Nos tenues sont pensées pour faciliter votre quotidien, avec des éléments pratiques comme les chaussettes intégrées pour des prières en toute simplicité.</p><p>Nous sélectionnons des matières agréables et des coupes adaptées pour vous offrir une expérience de prière confortable, tout en respectant votre style et vos valeurs.</p><p></p><p></p>"
+            }
+          }
+        },
+        "block_order": [
+          "item_EbwJhM"
+        ],
+        "name": "Timeline",
+        "settings": {
+          "text_color": "#ffffff"
+        }
       }
     },
     "content_for_index": [
@@ -530,6 +568,7 @@
       "text_with_image_QXAp3K",
       "image_with_text_block_yE73UC",
       "instagram_feed_xBRa9N",
+      "testimonials_XMERkB",
       "1595364523818",
       "1602617742633",
       "1595363281802",
@@ -537,7 +576,8 @@
       "1596220234038",
       "featured_collections_MFKdQR",
       "loox_carousel_reviews_4BzdjW",
-      "testimonials_XMERkB"
+      "image_with_text_overlay_wqw8qt",
+      "timeline_9UqiDr"
     ]
   },
   "presets": {
