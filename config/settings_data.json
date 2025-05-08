@@ -518,7 +518,7 @@
           "title": "Notre concept",
           "image": "shopify://shop_images/Image_JPEG-48B4-83F8-34-0.jpg",
           "image_position": "left",
-          "content": "<p>Chez Eleifa, nous proposons des tenues de prière conçues pour allier pudeur, confort et praticité. Nos tenues sont pensées pour faciliter votre quotidien, avec des éléments pratiques comme les chaussettes intégrées pour des prières en toute simplicité.</p><p>Nous sélectionnons des matières agréables et des coupes adaptées pour vous offrir une expérience de prière confortable, tout en respectant votre style et vos valeurs.</p><p>Eleifa, c’est la simplicité d’une tenue de prière efficace, élégante et prête à vous accompagner dans chaque moment de spiritualité.</p><p></p>",
+          "content": "<p>Chez Eleifa, nos tenues de prière allient pudeur, confort et praticité. Conçues pour simplifier votre quotidien, elles intègrent des éléments pratiques comme des chaussettes pour des prières sereines.</p><p></p><p> Élégantes et confortables, nos tenues respectent votre style et vos valeurs, pour vous accompagner à chaque moment spirituel.</p>",
           "link_text": "Rejoignez la communauté Eleifa",
           "link_url": "shopify://collections"
         }
@@ -565,8 +565,8 @@
     "content_for_index": [
       "slideshow",
       "1595363175996",
-      "text_with_image_QXAp3K",
       "image_with_text_block_yE73UC",
+      "text_with_image_QXAp3K",
       "instagram_feed_xBRa9N",
       "testimonials_XMERkB",
       "1595364523818",
