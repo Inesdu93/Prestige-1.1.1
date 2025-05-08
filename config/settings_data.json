@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "heading_color": "#232222",
@@ -97,17 +97,18 @@
           "home_page_only": false,
           "background": "#ffffff",
           "text_color": "#080808",
-          "content": "Buy 2 or more and get an additional 10% off + free shipping!",
+          "content": "LIVRAISON EN ALGERIE ET EN EUROPE",
           "link": ""
         }
       },
       "header": {
         "type": "header",
         "settings": {
-          "use_sticky_header": true,
-          "logo_max_width": 180,
+          "use_sticky_header": false,
+          "logo": "shopify://shop_images/5cddbd0b81af640935b4730aae631c6d.png",
+          "logo_max_width": 115,
           "navigation_menu": "main-menu",
-          "navigation_style": "center",
+          "navigation_style": "inline",
           "enable_transparent_header": true,
           "enable_transparent_header_collection": false,
           "transparent_text_color": "#ffffff"
@@ -145,12 +146,14 @@
           "slide-1": {
             "type": "image",
             "settings": {
-              "apply_overlay": false,
+              "image": "shopify://shop_images/295A9585.jpg",
+              "mobile_image": "shopify://shop_images/295A9585.jpg",
+              "apply_overlay": true,
               "content_position": "middleLeft",
               "subheading": "",
               "title": "",
               "button_1_text": "",
-              "button_1_link": "",
+              "button_1_link": "shopify://collections",
               "button_2_text": "",
               "button_2_link": ""
             }
@@ -254,10 +257,10 @@
         "type": "text-with-image",
         "settings": {
           "subheading": "",
-          "title": "Breathing Fresh & Clean Air",
+          "title": "La pudeur embellit l’ame",
           "image_position": "right",
-          "content": "<p><em>Dry and very humid air can affect health and the condition of home. When air is too humid, it can encourage&nbsp;mold and mildew&nbsp;growth and contribute to health issues.</em></p>",
-          "link_text": "SHOP Clear Aromifier",
+          "content": "<p>Eilfa est une marque de vêtements qui se spécialise dans la mode modestie, notamment pour les femmes musulmanes. Elle se distingue par ses créations qui allient modernité et pudeur, offrant des vêtements qui respectent les principes islamiques de modestie tout en étant tendance et élégants</p>",
+          "link_text": "En savoir plus",
           "link_url": "shopify://products/cool-mist-humidifer-essential-oil-diffuser-best-portable-humidifer-air-humidifier-essential-oil-aromatherapy-diffuser"
         }
       },
@@ -403,14 +406,43 @@
           "grid_mobile_items_per_row": "2",
           "grid_desktop_items_per_row": 4
         }
+      },
+      "image_with_text_block_yE73UC": {
+        "type": "image-with-text-block",
+        "name": "Image with text block",
+        "settings": {
+          "image": "shopify://shop_images/dddd.png",
+          "background": "#ffffff",
+          "text_color": "#c8b1a0",
+          "block_size": "normal",
+          "title": "Une histoire née en Algerie",
+          "content": "<p>Eleifa est née après ma hijra en Algérie, avec l’envie de faciliter la prière des sœurs à travers des tenues alliant pudeur, authenticité et élégance discrète.<br/></p>",
+          "button_label": "En savoir plus",
+          "button_link": "",
+          "show_parallax": false
+        }
+      },
+      "instagram_feed_xBRa9N": {
+        "type": "instagram-feed",
+        "name": "Instagram feed",
+        "settings": {
+          "subheading": "@ELEIFA.COUTURE",
+          "title": "Suivez nous",
+          "access_token": "",
+          "image_count": 15,
+          "button_text": "",
+          "button_url": ""
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "1595363175996",
+      "image_with_text_block_yE73UC",
+      "instagram_feed_xBRa9N",
       "1595364523818",
-      "1595363281802",
       "1602617742633",
+      "1595363281802",
       "1602617331938",
       "1596220234038",
       "featured_collections_MFKdQR"
