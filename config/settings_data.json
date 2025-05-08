@@ -488,7 +488,7 @@
           "1596220234038-0": {
             "type": "testimonial",
             "settings": {
-              "quote": "<p>\"C’est mon ensemble de prière préféré maintenant ! Je peux sortir avec, il est agréable à porter.\"</p>"
+              "quote": "<p>\"C’est mon ensemble de prière préféré maintenant ! Je peux sortir avec, il est agréable à porter.</p><p>Je recommande \"</p>"
             }
           },
           "1596220234038-1": {
@@ -500,13 +500,13 @@
           "1596220234038-2": {
             "type": "testimonial",
             "settings": {
-              "quote": "<p>\"J'étais un peu sceptique concernant la taille, car je suis grande et vous proposez uniquement une taille unique. Mais finalement, belle surprise \"</p><p></p>"
+              "quote": "<p>\"J'étais un peu sceptique concernant la taille, car je suis grande et vous proposez uniquement une taille unique. </p><p>Mais finalement, belle surprise \"</p><p></p>"
             }
           },
           "testimonial_KYGGWF": {
             "type": "testimonial",
             "settings": {
-              "quote": "<p>\"Allahuma barik trop pratique et les chaussettes accrochés vrmt une vrai révolution pour prier les pieds couverts mais avec toujours quelque chose de propres prêt et jolie\"</p>"
+              "quote": "<p>\"Allahuma barik trop pratique et les chaussettes accrochés, une vrai révolution pour prier les pieds couverts mais avec toujours quelque chose de propres prêt et jolie\"</p>"
             }
           },
           "1596222341500": {
@@ -526,8 +526,21 @@
         "settings": {
           "autoplay": true,
           "cycle_speed": 5,
-          "background": "#c8b1a0",
-          "text_color": "#ffffff"
+          "background": "#e9e2ee",
+          "text_color": "#000000"
+        }
+      },
+      "newsletter_RDFpgk": {
+        "type": "newsletter",
+        "name": "Newsletter",
+        "settings": {
+          "section_size": "small",
+          "image": "shopify://shop_images/rjjrr.png",
+          "text_color": "#ffffff",
+          "button_color": "#000000",
+          "subheading": "LA TEAM ELEIFA",
+          "title": "",
+          "content": "<p>Rejoignez la newsletter pour être les premières informées des nouvelles collections, offres exclusives et bien plus encore !</p>"
         }
       }
     },
@@ -544,7 +557,8 @@
       "1602617331938",
       "1596220234038",
       "featured_collections_MFKdQR",
-      "custom_html_Ukcfn3"
+      "custom_html_Ukcfn3",
+      "newsletter_RDFpgk"
     ]
   },
   "presets": {
