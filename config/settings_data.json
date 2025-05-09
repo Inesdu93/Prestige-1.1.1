@@ -35,10 +35,10 @@
     "uppercase_heading": true,
     "text_font": "century_gothic_n4",
     "base_text_font_size": 13,
-    "currency_conversion_enabled": false,
+    "currency_conversion_enabled": true,
     "currency_conversion_round_amounts": false,
-    "currency_conversion_supported_currencies": "EUR DZD",
-    "currency_conversion_money_format": "money_with_currency_format",
+    "currency_conversion_supported_currencies": "EUR",
+    "currency_conversion_money_format": "money_format",
     "show_page_transition": true,
     "show_image_zooming": true,
     "show_element_staggering": true,
@@ -85,14 +85,9 @@
       "sidebar-menu": {
         "type": "sidebar-menu",
         "settings": {
-          "use_sticky_header": true,
-          "logo": "shopify://shop_images/eilfa.png",
-          "logo_max_width": 65,
-          "navigation_menu": "main-menu",
-          "navigation_style": "inline",
-          "enable_transparent_header": false,
-          "enable_transparent_header_collection": false,
-          "transparent_text_color": "#ffffff"
+          "primary_menu": "main-menu",
+          "secondary_menu": "",
+          "show_social_media": true
         }
       },
       "announcement": {
@@ -103,13 +98,23 @@
           "home_page_only": false,
           "background": "#ffffff",
           "text_color": "#080808",
-          "content": "LIVRAISON EN ALGERIE ET EN EUROPE",
+          "content": "LIVRAISON EN ALGERIE ET EN FRANCE",
           "link": ""
         }
       },
       "header": {
         "type": "header",
-        "settings": {}
+        "settings": {
+          "use_sticky_header": true,
+          "logo": "shopify://shop_images/5cddbd0b81af640935b4730aae631c6d.png",
+          "logo_max_width": 50,
+          "navigation_menu": "main-menu",
+          "navigation_style": "inline",
+          "enable_transparent_header": true,
+          "enable_transparent_header_collection": true,
+          "transparent_text_color": "#000000",
+          "transparent_logo": "shopify://shop_images/5cddbd0b81af640935b4730aae631c6d.png"
+        }
       },
       "footer": {
         "type": "footer",
@@ -688,7 +693,14 @@
       "custom_html_Ukcfn3",
       "newsletter_RDFpgk",
       "custom_html_x6eBLe"
-    ]
+    ],
+    "blocks": {
+      "16385875669176271745": {
+        "type": "shopify://apps/aj-geolocation/blocks/app-embed/706a7c42-6b86-486e-9103-0b23903e31fa",
+        "disabled": true,
+        "settings": {}
+      }
+    }
   },
   "presets": {
     "Allure": {
