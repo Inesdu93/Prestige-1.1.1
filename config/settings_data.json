@@ -47,7 +47,7 @@
     "product_show_price_on_hover": true,
     "product_show_secondary_image": true,
     "product_info_alignment": "left",
-    "product_image_size": "natural",
+    "product_image_size": "square",
     "product_list_horizontal_spacing": "small",
     "product_list_vertical_spacing": "small",
     "cart_type": "drawer",
@@ -194,7 +194,7 @@
       "recently-viewed-products": {
         "type": "recently-viewed-products",
         "settings": {
-          "show_section": true,
+          "show_section": false,
           "title": "Recently viewed",
           "show_product_info": true,
           "show_color_swatch": false
@@ -204,7 +204,6 @@
         "type": "collection-footer",
         "settings": {
           "show_section": false,
-          "image": "",
           "text_color": "#ffffff",
           "apply_overlay": true,
           "title": "Our story",
@@ -217,9 +216,9 @@
           "show_share_buttons": false,
           "show_vendor": false,
           "description_below_add_to_cart": true,
-          "show_color_swatch": true,
+          "show_color_swatch": false,
           "show_color_carousel": false,
-          "show_quantity_selector": true,
+          "show_quantity_selector": false,
           "show_inventory_quantity": false,
           "inventory_quantity_threshold": 3,
           "show_payment_button": true,
@@ -227,16 +226,16 @@
           "enable_image_zoom": true,
           "show_thumbnails": false,
           "tab_page_1_handle": "faq",
-          "tab_page_2_handle": "",
+          "tab_page_2_handle": "contact",
           "reviews_enabled": false,
-          "featured_image_size": "large"
+          "featured_image_size": "normal"
         }
       },
       "related-products": {
         "type": "related-products",
         "settings": {
           "show_section": true,
-          "title": "Related Products",
+          "title": "Ces produits pourraient vous plaire",
           "show_product_info": true,
           "show_color_swatch": false
         }
