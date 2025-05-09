@@ -1,37 +1,33 @@
 <section class="Product Product--{{ section.settings.image_size }}" data-section-id="{{ section.id }}" data-section-type="product" data-section-settings='{{ section_settings }}'>
   <div class="Product__Wrapper">
 
-    {%- capture action_list_items -%}
-      {%- if section.settings.show_share_buttons -%}
-        <div class="Product__ActionItem">
-          <button class="RoundButton RoundButton--small RoundButton--flat" data-action="toggle-social-share" data-animate-bottom aria-expanded="false">
-            <span class="RoundButton__PrimaryState">{% include 'icon' with 'share' %}</span>
-            <span class="RoundButton__SecondaryState">{% include 'icon' with 'close' %}</span>
-          </button>
-          <div class="Product__ShareList" aria-hidden="true">
-            <a class="Product__ShareItem" href="https://www.facebook.com/sharer.php?u={{ share_url }}" target="_blank" rel="noopener">{%- include 'icon' with 'facebook' -%} Facebook</a>
-            <a class="Product__ShareItem" href="https://pinterest.com/pin/create/button/?url={{ share_url }}{% if pinterest_image != blank %}&media={{ pinterest_image }}{% endif %}&description={{ pinterest_description }}" target="_blank" rel="noopener">{%- include 'icon' with 'pinterest' -%} Pinterest</a>
-            <a class="Product__ShareItem" href="https://twitter.com/share?{% if twitter_text != blank %}text={{twitter_text}}&{% endif %}url={{ share_url }}" target="_blank" rel="noopener">{%- include 'icon' with 'twitter' -%} Twitter</a>
-          </div>
-        </div>
-      {%- endif -%}
-    {%- endcapture -%}
-
     <div class="Product__Gallery">
-      <div class="Product__Slideshow" data-action="toggle-product-gallery" data-flickity-options="{{ flickity_options }}">
-        {{ slideshow_images }}
+      <div class="Product__Slideshow">
+        {% for image in product.images %}
+          <div class="Product__SlideItem">
+            <img src="{{ image | img_url: '800x' }}" alt="{{ image.alt | escape }}">
+          </div>
+        {% endfor %}
       </div>
     </div>
 
     <!-- Pastilles de couleur -->
     <div class="Product__ColorSelector">
       <h4>Couleur</h4>
-      <div class="ColorOptions">
-        {%- for variant in product.variants -%}
-          {%- if variant.option1 == 'Couleur' -%} <!-- Ajuste cette condition selon le nom de l'option pour la couleur -->
-            <div class="ColorOption" style="background-color: {{ variant.option1 | downcase }}; width: 20px; height: 20px; border-radius: 50%; margin-right: 5px; display: inline-block;"></div>
-          {%- endif -%}
-        {%- endfor -%}
+      <div class="ColorOptions" style="display: flex; gap: 8px; margin-top: 8px;">
+        {% for variant in product.variants %}
+          {% if variant.option1 contains 'Noir' %}
+            <div class="ColorOption" style="background-color: black; width: 20px; height: 20px; border-radius: 50%;"></div>
+          {% elsif variant.option1 contains 'Blanc' %}
+            <div class="ColorOption" style="background-color: white; border: 1px solid #ddd; width: 20px; height: 20px; border-radius: 50%;"></div>
+          {% elsif variant.option1 contains 'Rouge' %}
+            <div class="ColorOption" style="background-color: red; width: 20px; height: 20px; border-radius: 50%;"></div>
+          {% elsif variant.option1 contains 'Bleu' %}
+            <div class="ColorOption" style="background-color: blue; width: 20px; height: 20px; border-radius: 50%;"></div>
+          {% else %}
+            <div class="ColorOption" style="background-color: gray; width: 20px; height: 20px; border-radius: 50%;"></div>
+          {% endif %}
+        {% endfor %}
       </div>
     </div>
 
@@ -49,4 +45,6 @@
     </div>
 
   </div>
+</section>
+
 </section>
