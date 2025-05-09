@@ -159,25 +159,10 @@
               "button_2_text": "",
               "button_2_link": ""
             }
-          },
-          "image_AjbNnz": {
-            "type": "image",
-            "disabled": true,
-            "settings": {
-              "apply_overlay": true,
-              "content_position": "bottomLeft",
-              "subheading": "Slide title",
-              "title": "Tell your story",
-              "button_1_text": "",
-              "button_1_link": "",
-              "button_2_text": "",
-              "button_2_link": ""
-            }
           }
         },
         "block_order": [
-          "slide-1",
-          "image_AjbNnz"
+          "slide-1"
         ],
         "settings": {
           "show_fullscreen": true,
@@ -475,19 +460,6 @@
           "text_color": "#1c1b1b"
         }
       },
-      "text_with_image_QXAp3K": {
-        "type": "text-with-image",
-        "name": "Rich text with image",
-        "settings": {
-          "subheading": "",
-          "title": "Notre concept",
-          "image": "shopify://shop_images/Image_JPEG-48B4-83F8-34-0.jpg",
-          "image_position": "left",
-          "content": "<p>Chez Eleifa, nos tenues de prière allient pudeur, confort et praticité. Conçues pour simplifier votre quotidien, elles intègrent des éléments pratiques comme des chaussettes pour des prières sereines.</p><p></p><p> Élégantes et confortables, nos tenues respectent votre style et vos valeurs, pour vous accompagner à chaque moment spirituel.</p>",
-          "link_text": "Rejoignez la communauté Eleifa",
-          "link_url": "shopify://collections"
-        }
-      },
       "custom_html_Ukcfn3": {
         "type": "custom-html",
         "name": "Custom HTML",
@@ -690,14 +662,83 @@
           "question_WafEqJ"
         ],
         "settings": {}
+      },
+      "collection_list_YcU4VP": {
+        "type": "collection-list",
+        "blocks": {
+          "collection_kXULQT": {
+            "type": "collection",
+            "settings": {
+              "collection": "laya",
+              "image": "shopify://shop_images/5_0139f44c-b7ea-491f-b351-9c12e5d28d5f.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Découvez nos robes",
+              "title": "",
+              "button_text": "Je veux la mienne",
+              "apply_overlay": false
+            }
+          },
+          "collection_9pUrGG": {
+            "type": "collection",
+            "settings": {
+              "collection": "youmna",
+              "image": "shopify://shop_images/burrro.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Découvez nos robes",
+              "title": "Yoummna",
+              "button_text": "Je veux la mienne",
+              "apply_overlay": true
+            }
+          },
+          "collection_38ECxf": {
+            "type": "collection",
+            "settings": {
+              "collection": "emna",
+              "image": "shopify://shop_images/emna.png",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Découvez nos robes",
+              "title": "",
+              "button_text": "Je veux la mienne",
+              "apply_overlay": true
+            }
+          }
+        },
+        "block_order": [
+          "collection_kXULQT",
+          "collection_9pUrGG",
+          "collection_38ECxf"
+        ],
+        "name": "Collection list",
+        "settings": {
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "text_with_image_i4J3kc": {
+        "type": "text-with-image",
+        "settings": {
+          "subheading": "",
+          "title": "Notre concept",
+          "image_position": "right",
+          "content": "<p>Chez Eleifa, nos tenues de prière allient pudeur, confort et praticité. Conçues pour simplifier votre quotidien, elles intègrent des éléments pratiques comme des chaussettes pour des prières sereines.</p><p></p><p> Élégantes et confortables, nos tenues respectent votre style et vos valeurs, pour vous accompagner à chaque moment spirituel.</p>",
+          "link_text": "Rejoindre la communauté Eleifa",
+          "link_url": "shopify://collections/all"
+        }
       }
     },
     "content_for_index": [
       "slideshow",
       "1595363175996",
-      "text_with_image_QXAp3K",
-      "testimonials_XMERkB",
       "image_with_text_block_yE73UC",
+      "text_with_image_i4J3kc",
+      "collection_list_YcU4VP",
+      "testimonials_XMERkB",
       "instagram_feed_xBRa9N",
       "1595364523818",
       "1602617742633",
