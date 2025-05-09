@@ -37,8 +37,8 @@
     "base_text_font_size": 13,
     "currency_conversion_enabled": true,
     "currency_conversion_round_amounts": true,
-    "currency_conversion_supported_currencies": "EUR",
-    "currency_conversion_money_format": "money_format",
+    "currency_conversion_supported_currencies": "EUR DZD",
+    "currency_conversion_money_format": "money_with_currency_format",
     "show_page_transition": true,
     "show_image_zooming": true,
     "show_element_staggering": true,
@@ -92,6 +92,7 @@
       },
       "announcement": {
         "type": "announcement",
+        "custom_css": [],
         "settings": {
           "enable_bar": true,
           "home_page_only": false,
