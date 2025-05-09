@@ -1936,5 +1936,10 @@
         "shop-the-look"
       ]
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+      ".prestige--v1{padding: 0 !important;}"
+    ]
   }
 }
