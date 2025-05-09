@@ -641,6 +641,19 @@
               "title": "Qu'est-ce qui distingue la marque Eleifa des autres marques ?",
               "answer": "<p>Eleifa se distingue par sa capacité à allier modernité et modestie dans des collections de vêtements créées spécifiquement pour les femmes musulmanes. Nous mettons un point d'honneur à offrir des pièces élégantes, confortables et respectueuses des valeurs de la mode modeste, tout en restant ancrées dans les tendances actuelles. Chaque article est conçu avec une attention particulière aux détails et à la qualité des matériaux.</p>"
             }
+          },
+          "separator_FhD3kp": {
+            "type": "separator",
+            "settings": {
+              "title": "Des questions"
+            }
+          },
+          "question_WafEqJ": {
+            "type": "question",
+            "settings": {
+              "title": "SAV - Nous nous engageons à répondre dans un délai de 48 heures.",
+              "answer": "<p>Pour toute question ou information supplémentaire, notre service client est à votre disposition à l’adresse suivante :<br/><a>contact@eleifa-couture.com</a></p><p></p>"
+            }
           }
         },
         "block_order": [
@@ -656,7 +669,9 @@
           "page-faq-template-7",
           "question_BdGcVb",
           "question_Dmtw9m",
-          "page-faq-template-8"
+          "page-faq-template-8",
+          "separator_FhD3kp",
+          "question_WafEqJ"
         ],
         "settings": {}
       }
