@@ -148,7 +148,7 @@
           "slide-1": {
             "type": "image",
             "settings": {
-              "image": "shopify://shop_images/295A9585.jpg",
+              "image": "shopify://shop_images/295A9642.jpg",
               "mobile_image": "shopify://shop_images/295A9585.jpg",
               "apply_overlay": true,
               "content_position": "middleLeft",
@@ -475,7 +475,7 @@
           "1596220234038-0": {
             "type": "testimonial",
             "settings": {
-              "quote": "<p>\"C’est mon ensemble de prière préféré maintenant ! Je peux sortir avec, il est agréable à porter.</p><p>Je recommande \"</p>"
+              "quote": "<p>\"C’est mon ensemble de prière préféré maintenant ! Je peux sortir avec, il est agréable à porter.</p><p>Je recommande \"</p><p></p><h3><em>Modèle Emmna</em></h3>"
             }
           },
           "1596220234038-1": {
@@ -513,7 +513,7 @@
         "settings": {
           "autoplay": true,
           "cycle_speed": 5,
-          "background": "#e9e2ee",
+          "background": "#f2f2f2",
           "text_color": "#000000"
         }
       },
