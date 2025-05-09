@@ -149,14 +149,14 @@
             "type": "image",
             "settings": {
               "image": "shopify://shop_images/295A9642.jpg",
-              "mobile_image": "shopify://shop_images/295A9585.jpg",
+              "mobile_image": "shopify://shop_images/BANNER.png",
               "apply_overlay": true,
               "content_position": "middleLeft",
               "subheading": "",
               "title": "Bienvenue CHEZ ELEIFA",
               "button_1_text": "JE COMMANDE EN FRANCE",
               "button_1_link": "https://i0ur49-6g.myshopify.com/fr",
-              "button_2_text": "JE COMMANDE EN ALGERIE",
+              "button_2_text": "JE COMMANDE EN ALGérie",
               "button_2_link": "https://i0ur49-6g.myshopify.com/fr-dz"
             }
           }
