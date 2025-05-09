@@ -15,15 +15,26 @@
 {%- endif -%}
 
 {%- if settings.currency_conversion_enabled -%}
-  <div class="Header__CurrencySelector">
-    <select class="CurrencySelector__Select">
-      {%- if customer_address.country == 'France' -%}
-        <option value="EUR" selected="selected">EUR - Euro (€)</option>
-      {%- elsif customer_address.country == 'Algeria' -%}
-        <option value="DZD" selected="selected">DZD - Dinar algérien (د.ج)</option>
-      {%- else -%}
-        <option value="USD" selected="selected">USD - Dollar ($)</option>
-      {%- endif -%}
-    </select>
-  </div>
+  {%- capture currency_conversion_select -%}
+    <div class="Header__CurrencySelector Text--subdued Heading Link Link--primary u-h8 hidden-pocket hidden-lap">
+      <div class="Select Select--transparent">
+        <select class="CurrencySelector__Select u-h8">
+          {%- capture codes -%}USD,EUR,DZD{%- endcapture -%}
+          {%- assign supported_codes = settings.currency_conversion_supported_currencies | remove_first: shop.currency | upcase | split: ' ' | uniq -%}
+
+          <option value="{{ shop.currency }}" selected="selected">{{ shop.currency }}</option>
+
+          {%- for code in supported_codes -%}
+            {%- if codes contains code -%}
+              <option value="{{ code }}">{{ code }}</option>
+            {%- endif -%}
+          {%- endfor -%}
+        </select>
+
+        {%- include 'icon' with 'select-arrow' -%}
+      </div>
+    </div>
+  {%- endcapture -%}
 {%- endif -%}
+
+{{- currency_conversion_select -}}
