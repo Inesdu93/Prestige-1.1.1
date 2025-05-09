@@ -110,7 +110,7 @@
           "logo_max_width": 120,
           "navigation_menu": "main-menu",
           "navigation_style": "inline",
-          "enable_transparent_header": true,
+          "enable_transparent_header": false,
           "enable_transparent_header_collection": true,
           "transparent_text_color": "#ffffff",
           "transparent_logo": "shopify://shop_images/5cddbd0b81af640935b4730aae631c6d.png"
