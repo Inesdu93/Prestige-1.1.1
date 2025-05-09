@@ -556,45 +556,6 @@ This is the root container for the zoom functionality. Must not be removed, as o
 }
 </script>
 {% endif %}
-/* Cibler la sélection des couleurs */
-.Product__ColorSelector {
-  background-color: white; /* Fond blanc */
-  color: black; /* Texte en noir */
-  border: 1px solid #ccc; /* Bordure légère pour plus de visibilité */
-  padding: 5px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 4px;
-}
-
-/* Pour la couleur sélectionnée, on peut utiliser un fond gris clair ou une bordure pour la mettre en valeur */
-.Product__ColorSelector .is-selected {
-  background-color: #f5f5f5; /* Fond gris clair */
-  color: black; /* Texte en noir */
-  border-color: #bbb; /* Bordure plus foncée */
-}
-
-/* Pour l'état au survol */
-.Product__ColorSelector:hover {
-  background-color: #f0f0f0; /* Fond légèrement plus clair au survol */
-}
-
-/* Pour les options de couleurs non sélectionnées */
-.Product__ColorOption {
-  background-color: transparent; /* Fond transparent pour les options non sélectionnées */
-  color: black; /* Texte noir */
-  cursor: pointer;
-  padding: 5px 10px;
-  border-radius: 4px;
-  transition: background-color 0.3s ease;
-}
-
-/* Effet au survol pour les options */
-.Product__ColorOption:hover {
-  background-color: #f5f5f5; /* Fond gris clair au survol */
-}
-
 
 
 	<div id="looxReviews" data-product-id="{{product.id}}" class="loox-reviews-default">{{ product.metafields.loox.reviews }}</div>
