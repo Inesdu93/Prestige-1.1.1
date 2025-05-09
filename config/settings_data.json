@@ -105,9 +105,9 @@
       "header": {
         "type": "header",
         "settings": {
-          "use_sticky_header": true,
-          "logo": "shopify://shop_images/logo.png",
-          "logo_max_width": 125,
+          "use_sticky_header": false,
+          "logo": "shopify://shop_images/1.png",
+          "logo_max_width": 120,
           "navigation_menu": "main-menu",
           "navigation_style": "inline",
           "enable_transparent_header": true,
