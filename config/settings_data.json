@@ -550,6 +550,115 @@
           "title": "FAQ",
           "html": "<meta charset=\"UTF-8\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n  <title>FAQ - Eleifa</title>\n  <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css\">\n  <style>\n    body { font-family: 'Century Gothic', sans-serif; background-color: #f9f9f9; margin: 0; padding: 20px; }\n    .faq-container { max-width: 700px; margin: 0 auto; }\n    .faq-item { background: #fff; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }\n    .faq-question { padding: 15px 20px; cursor: pointer; display: flex; justify-content: center; align-items: center; text-align: center; }\n    .faq-question h3 { font-size: 16px; margin: 0; }\n    .faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; padding: 0 20px; }\n    .faq-answer p { font-size: 14px; color: #555; line-height: 1.6; margin: 15px 0; }\n    .faq-item.active .faq-answer { max-height: 500px; padding-bottom: 15px; }\n\n    @media (max-width: 600px) {\n      .faq-question h3 { font-size: 14px; }\n      .faq-answer p { font-size: 12px; }\n    }\n  </style>\n\n\n\n<div class=\"faq-container\">\n  <div class=\"faq-item\">\n    <div class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n      <h3>Pourquoi des chaussettes intégrées ?</h3>\n      <i class=\"fas fa-chevron-down\"></i>\n    </div>\n    <div class=\"faq-answer\">\n      <p>Nos tenues de prière avec chaussettes intégrées assurent confort et praticité, sans chercher de chaussettes supplémentaires.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <div class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n      <h3>Comment se passent les retours SAV ?</h3>\n      <i class=\"fas fa-chevron-down\"></i>\n    </div>\n    <div class=\"faq-answer\">\n      <p>Pour toute demande de retour ou SAV, contactez-nous à <a href=\"mailto:contact@eleifa-couture.com\">contact@eleifa-couture.com</a>.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <div class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n      <h3>Pourquoi ce concept est-il unique ?</h3>\n      <i class=\"fas fa-chevron-down\"></i>\n    </div>\n    <div class=\"faq-answer\">\n      <p>Eleifa allie confort, élégance et praticité grâce à des tenues de prière uniques avec chaussettes intégrées.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <div class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n      <h3>Quel est votre engagement éthique ?</h3>\n      <i class=\"fas fa-chevron-down\"></i>\n    </div>\n    <div class=\"faq-answer\">\n      <p>Nous privilégions des matériaux durables et une production locale à Alger, dans une démarche éthique et respectueuse de l’environnement.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <div class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n      <h3>Où sont fabriquées les tenues ?</h3>\n      <i class=\"fas fa-chevron-down\"></i>\n    </div>\n    <div class=\"faq-answer\">\n      <p>Nos tenues sont imaginées et fabriquées à Alger, dans notre atelier local en petites séries.</p>\n    </div>\n  </div>\n\n  <div class=\"faq-item\">\n    <div class=\"faq-question\" onclick=\"toggleFAQ(this)\">\n      <h3>Faites-vous des pièces uniques ?</h3>\n      <i class=\"fas fa-chevron-down\"></i>\n    </div>\n    <div class=\"faq-answer\">\n      <p>Oui, nos pièces sont créées en petites séries ou pièces uniques, offrant ainsi originalité et authenticité.</p>\n    </div>\n  </div>\n\n</div>\n\n<script>\n  function toggleFAQ(element) {\n    element.parentElement.classList.toggle(\"active\");\n  }\n</script>"
         }
+      },
+      "page-faq-template": {
+        "type": "page-faq-template",
+        "blocks": {
+          "page-faq-template-0": {
+            "type": "separator",
+            "settings": {
+              "title": "Livraison"
+            }
+          },
+          "page-faq-template-1": {
+            "type": "question",
+            "settings": {
+              "title": "Quel est le délai de livraison ?",
+              "answer": "<p>Le délai de livraison est de 3 à 5 jours ouvrables.</p>"
+            }
+          },
+          "page-faq-template-2": {
+            "type": "question",
+            "settings": {
+              "title": "Comment retourner un produit ?",
+              "answer": "<p>Vous pouvez retourner un produit dans les 30 jours suivant l'achat.</p>"
+            }
+          },
+          "page-faq-template-3": {
+            "type": "question",
+            "settings": {
+              "title": "Comment suivre ma commande ?",
+              "answer": "<p>Une fois votre commande expédiée, vous recevrez un lien de suivi par email.</p>"
+            }
+          },
+          "page-faq-template-4": {
+            "type": "separator",
+            "settings": {
+              "title": "Produit"
+            }
+          },
+          "page-faq-template-5": {
+            "type": "question",
+            "settings": {
+              "title": "Les produits sont-ils éco-responsables ?",
+              "answer": "<p>Nous nous efforçons de sélectionner des matériaux durables et respectueux de l'environnement.</p>"
+            }
+          },
+          "page-faq-template-6": {
+            "type": "question",
+            "settings": {
+              "title": "Les couleurs du produit vont-elles se décolorer après plusieurs lavages ?",
+              "answer": "<p>Nous utilisons des teintures résistantes conçues pour durer, mais nous vous recommandons de laver à basse température pour préserver les couleurs.</p>"
+            }
+          },
+          "question_98jUNA": {
+            "type": "question",
+            "settings": {
+              "title": "Cette tenue de prière est-elle adaptée à toutes les morphologies ?",
+              "answer": "<p>Oui, cette tenue de prière est conçue en taille unique et a été spécialement pensée pour s'adapter à différentes morphologies. Elle offre une coupe ample et confortable tout en assurant une couverture complète. Si vous avez des doutes concernant la taille, nous vous conseillons de consulter la description détaillée pour plus de précisions sur les mesures.</p>"
+            }
+          },
+          "question_nHxdy3": {
+            "type": "question",
+            "settings": {
+              "title": "Les tissus sont-ils transparents ?",
+              "answer": "<p>Non, les tissus utilisés pour ce produit sont conçus pour offrir une couverture optimale tout en restant légers et confortables.</p>"
+            }
+          },
+          "page-faq-template-7": {
+            "type": "separator",
+            "settings": {
+              "title": "La marque"
+            }
+          },
+          "question_BdGcVb": {
+            "type": "question",
+            "settings": {
+              "title": "Où sont fabriqués les produits de la marque Eleifa ?",
+              "answer": "<p>Les produits Eleifa sont fabriqués avec soin dans des ateliers sur Alger choisis pour leur savoir-faire et leur engagement en matière de qualité et d'éthique. Nous collaborons principalement avec des artisans locaux et internationaux, en veillant à ce que chaque vêtement soit réalisé dans le respect des standards de production responsables et durables.</p>"
+            }
+          },
+          "question_Dmtw9m": {
+            "type": "question",
+            "settings": {
+              "title": "Pourquoi avez-vous créé Eleifa ?",
+              "answer": "<p>Eleifa a été créée pour offrir des vêtements modernes et modestes, adaptés aux femmes musulmanes qui souhaitent allier style, confort et respect des valeurs de pudeur. Notre mission est de rendre la mode modeste accessible, élégante et pratique.</p>"
+            }
+          },
+          "page-faq-template-8": {
+            "type": "question",
+            "settings": {
+              "title": "Qu'est-ce qui distingue la marque Eleifa des autres marques ?",
+              "answer": "<p>Eleifa se distingue par sa capacité à allier modernité et modestie dans des collections de vêtements créées spécifiquement pour les femmes musulmanes. Nous mettons un point d'honneur à offrir des pièces élégantes, confortables et respectueuses des valeurs de la mode modeste, tout en restant ancrées dans les tendances actuelles. Chaque article est conçu avec une attention particulière aux détails et à la qualité des matériaux.</p>"
+            }
+          }
+        },
+        "block_order": [
+          "page-faq-template-0",
+          "page-faq-template-1",
+          "page-faq-template-2",
+          "page-faq-template-3",
+          "page-faq-template-4",
+          "page-faq-template-5",
+          "page-faq-template-6",
+          "question_98jUNA",
+          "question_nHxdy3",
+          "page-faq-template-7",
+          "question_BdGcVb",
+          "question_Dmtw9m",
+          "page-faq-template-8"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": [
