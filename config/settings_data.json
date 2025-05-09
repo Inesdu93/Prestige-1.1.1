@@ -86,7 +86,8 @@
         "type": "sidebar-menu",
         "settings": {
           "use_sticky_header": true,
-          "logo_max_width": 140,
+          "logo": "shopify://shop_images/eilfa.png",
+          "logo_max_width": 65,
           "navigation_menu": "main-menu",
           "navigation_style": "inline",
           "enable_transparent_header": false,
