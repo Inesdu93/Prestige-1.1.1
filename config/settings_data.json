@@ -218,7 +218,7 @@
           "show_vendor": false,
           "description_below_add_to_cart": true,
           "show_color_swatch": false,
-          "show_color_carousel": false,
+          "show_color_carousel": true,
           "show_quantity_selector": false,
           "show_inventory_quantity": false,
           "inventory_quantity_threshold": 3,
