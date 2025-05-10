@@ -225,7 +225,7 @@
           "show_payment_button": true,
           "image_size": "large",
           "enable_image_zoom": true,
-          "show_thumbnails": false,
+          "show_thumbnails": true,
           "tab_page_1_handle": "",
           "tab_page_2_handle": "",
           "reviews_enabled": true,
@@ -521,12 +521,12 @@
         "type": "newsletter",
         "name": "Newsletter",
         "settings": {
-          "section_size": "small",
-          "image": "shopify://shop_images/rjjrr.png",
+          "section_size": "normal",
+          "image": "shopify://shop_images/NEWLETTER.png",
           "text_color": "#ffffff",
           "button_color": "#000000",
-          "subheading": "LA TEAM ELEIFA",
-          "title": "",
+          "subheading": "",
+          "title": "LA TEAM ELEIFA",
           "content": "<p>Rejoignez la newsletter pour être les premières informées des nouvelles collections, offres exclusives et bien plus encore !</p>"
         }
       },
@@ -1939,7 +1939,7 @@
   },
   "platform_customizations": {
     "custom_css": [
-      ".prestige--v1{padding: 0 !important;}"
+      ".prestige--v1 {padding: 0 !important;}"
     ]
   }
 }
