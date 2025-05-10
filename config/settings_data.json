@@ -178,7 +178,7 @@
         "settings": {
           "show_collection_info": true,
           "show_collection_image": false,
-          "show_color_swatch": true,
+          "show_color_swatch": false,
           "collection_image_size": "large",
           "show_sort_by": false,
           "show_layout_switch": false,
