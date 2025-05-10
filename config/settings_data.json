@@ -669,7 +669,7 @@
           "collection_kXULQT": {
             "type": "collection",
             "settings": {
-              "collection": "laya",
+              "collection": "",
               "image": "shopify://shop_images/5_0139f44c-b7ea-491f-b351-9c12e5d28d5f.png",
               "image_alignment": "center center",
               "content_position": "bottomLeft",
@@ -730,6 +730,36 @@
           "link_text": "Rejoindre la communauté Eleifa",
           "link_url": "shopify://collections/all"
         }
+      },
+      "shop_the_look_b7HmTe": {
+        "type": "shop-the-look",
+        "blocks": {
+          "look_LqWicG": {
+            "type": "look",
+            "settings": {
+              "image": "shopify://shop_images/uhhuhu.png",
+              "dot_style": "light",
+              "product_1": "modele-laya",
+              "product_1_horizontal_position": 33,
+              "product_1_vertical_position": 40,
+              "product_2": "robe-de-priere-lina",
+              "product_2_horizontal_position": 54,
+              "product_2_vertical_position": 65,
+              "product_3": "youmna",
+              "product_3_horizontal_position": 83,
+              "product_3_vertical_position": 50
+            }
+          }
+        },
+        "block_order": [
+          "look_LqWicG"
+        ],
+        "name": "Shop the look",
+        "settings": {
+          "subheading": "SHOP TA PIéCE",
+          "title": "",
+          "show_mobile_product_info": true
+        }
       }
     },
     "content_for_index": [
@@ -748,7 +778,8 @@
       "1596220234038",
       "featured_collections_MFKdQR",
       "newsletter_RDFpgk",
-      "custom_html_x6eBLe"
+      "custom_html_x6eBLe",
+      "shop_the_look_b7HmTe"
     ],
     "blocks": {
       "16385875669176271745": {
