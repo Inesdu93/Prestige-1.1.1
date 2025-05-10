@@ -47,7 +47,7 @@
     "product_show_price_on_hover": true,
     "product_show_secondary_image": true,
     "product_info_alignment": "center",
-    "product_image_size": "square",
+    "product_image_size": "natural",
     "product_list_horizontal_spacing": "small",
     "product_list_vertical_spacing": "small",
     "cart_type": "drawer",
@@ -377,12 +377,12 @@
         "type": "image-with-text-block",
         "name": "Image with text block",
         "settings": {
-          "image": "shopify://shop_images/uhhuhu.png",
+          "image": "shopify://shop_images/18.png",
           "background": "#ffffff",
           "text_color": "#000000",
           "block_size": "normal",
           "title": "Une histoire née en Algerie",
-          "content": "<p>Eleifa est née après ma hijra en Algérie, avec l’envie de faciliter la prière des sœurs à travers des tenues alliant pudeur, authenticité et élégance discrète.<br/></p>",
+          "content": "<p>Eleifa est née après ma hijra en Algérie, pour offrir aux sœurs des tenues de prière alliant pudeur, authenticité et élégance.</p>",
           "button_label": "Plongez dans l’histoire d’Eleifa",
           "button_link": "",
           "show_parallax": true
@@ -681,6 +681,7 @@
           },
           "collection_9pUrGG": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "youmna",
               "image": "shopify://shop_images/burrro.png",
@@ -694,6 +695,7 @@
           },
           "collection_38ECxf": {
             "type": "collection",
+            "disabled": true,
             "settings": {
               "collection": "emna",
               "image": "shopify://shop_images/emna.png",
@@ -711,6 +713,7 @@
           "collection_9pUrGG",
           "collection_38ECxf"
         ],
+        "disabled": true,
         "name": "Collection list",
         "settings": {
           "image_size": "normal",
@@ -756,8 +759,8 @@
         ],
         "name": "Shop the look",
         "settings": {
-          "subheading": "SHOP TA PIéCE",
-          "title": "",
+          "subheading": "RETROUVEZ",
+          "title": "VOS TENUES PRéferées",
           "show_mobile_product_info": true
         }
       }
@@ -767,6 +770,7 @@
       "1595363175996",
       "image_with_text_block_yE73UC",
       "text_with_image_i4J3kc",
+      "shop_the_look_b7HmTe",
       "collection_list_YcU4VP",
       "testimonials_XMERkB",
       "instagram_feed_xBRa9N",
@@ -778,8 +782,7 @@
       "1596220234038",
       "featured_collections_MFKdQR",
       "newsletter_RDFpgk",
-      "custom_html_x6eBLe",
-      "shop_the_look_b7HmTe"
+      "custom_html_x6eBLe"
     ],
     "blocks": {
       "16385875669176271745": {
