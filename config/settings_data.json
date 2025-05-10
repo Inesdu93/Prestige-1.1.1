@@ -379,8 +379,8 @@
         "settings": {
           "image": "shopify://shop_images/uhhuhu.png",
           "background": "#ffffff",
-          "text_color": "#c8b1a0",
-          "block_size": "large",
+          "text_color": "#000000",
+          "block_size": "normal",
           "title": "Une histoire née en Algerie",
           "content": "<p>Eleifa est née après ma hijra en Algérie, avec l’envie de faciliter la prière des sœurs à travers des tenues alliant pudeur, authenticité et élégance discrète.<br/></p>",
           "button_label": "Plongez dans l’histoire d’Eleifa",
