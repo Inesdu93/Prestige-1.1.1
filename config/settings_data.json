@@ -54,12 +54,12 @@
     "cart_enable_notes": true,
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": 10,
-    "share_image": "",
-    "social_facebook": "https://www.facebook.com/get.right.9440/",
+    "share_image": "shopify://shop_images/logonoir.png",
+    "social_facebook": "",
     "social_twitter": "",
     "social_google_plus": "",
     "social_pinterest": "",
-    "social_instagram": "https://instagram.com/teamaromifier",
+    "social_instagram": "https://www.instagram.com/eleifa.couture/",
     "social_vimeo": "",
     "social_tumblr": "",
     "social_youtube": "",
@@ -390,6 +390,7 @@
       },
       "instagram_feed_xBRa9N": {
         "type": "instagram-feed",
+        "disabled": true,
         "name": "Instagram feed",
         "settings": {
           "subheading": "@ELEIFA.COUTURE",
@@ -780,6 +781,24 @@
           "page-contact-template-0"
         ],
         "settings": {}
+      },
+      "featured_product_qzmJhJ": {
+        "type": "featured-product",
+        "name": "Featured product",
+        "settings": {
+          "subheading": "Et si l’Aïd devenait l’occasion d’un vrai cadeau utile ?",
+          "title": "🌼 Le rappel qui t’accompagne partout.",
+          "product": "tote-bag-eleifa",
+          "show_vendor": false,
+          "show_description": false,
+          "description_below_add_to_cart": true,
+          "show_color_swatch": true,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 14,
+          "show_payment_button": false
+        }
       }
     },
     "content_for_index": [
@@ -799,7 +818,8 @@
       "1596220234038",
       "featured_collections_MFKdQR",
       "newsletter_RDFpgk",
-      "custom_html_x6eBLe"
+      "custom_html_x6eBLe",
+      "featured_product_qzmJhJ"
     ],
     "blocks": {
       "16385875669176271745": {
