@@ -261,7 +261,7 @@
           "subheading": "",
           "title": "La pudeur embellit l’ame",
           "image_position": "right",
-          "content": "<p>Eilfa est une marque de vêtements qui se spécialise dans la mode modestie, notamment pour les femmes musulmanes. Elle se distingue par ses créations qui allient modernité et pudeur, offrant des vêtements qui respectent les principes islamiques de modestie tout en étant tendance et élégants</p>",
+          "content": "<p>Eleifa est une marque de vêtements qui se spécialise dans la mode modestie, notamment pour les femmes musulmanes. Elle se distingue par ses créations qui allient modernité et pudeur, offrant des vêtements qui respectent les principes islamiques de modestie tout en étant tendance et élégants</p>",
           "link_text": "En savoir plus",
           "link_url": "shopify://pages/eleifa"
         }
@@ -375,6 +375,7 @@
       },
       "image_with_text_block_yE73UC": {
         "type": "image-with-text-block",
+        "disabled": true,
         "name": "Image with text block",
         "settings": {
           "image": "shopify://shop_images/295A8992.jpg",
@@ -729,6 +730,7 @@
         "settings": {
           "subheading": "",
           "title": "Notre concept",
+          "image": "shopify://shop_images/Chaussette_integree.png",
           "image_position": "right",
           "content": "<p>Chez Eleifa, nos tenues de prière allient pudeur, confort et praticité. Conçues pour simplifier votre quotidien, elles intègrent des éléments pratiques comme des chaussettes pour des prières sereines.</p><p></p><p> Élégantes et confortables, nos tenues respectent votre style et vos valeurs, pour vous accompagner à chaque moment spirituel.</p>",
           "link_text": "Une promesse : utile, beau et pudique",
