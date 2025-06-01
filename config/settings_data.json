@@ -95,7 +95,7 @@
         "custom_css": [],
         "settings": {
           "enable_bar": true,
-          "home_page_only": true,
+          "home_page_only": false,
           "background": "#ffffff",
           "text_color": "#080808",
           "content": "La livraison en Algérie est momentanément indisponible.  🌼",
